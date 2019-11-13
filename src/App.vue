@@ -4,7 +4,9 @@
       <v-container>
         <v-layout justify-center wrap>
           <router-link class="mx-1" to="/">1. Basic Variables</router-link>
-          <router-link class="mx-1" to="/exercise-two">2. Using Buttons and v-for</router-link>
+          <router-link class="mx-1" to="/exercise-two">2. Composing Components</router-link>
+          <router-link class="mx-1" to="/exercise-three">3. V-for, Forms</router-link>
+          <router-link class="mx-1" to="/exercise-four">4. Form Validation</router-link>
         </v-layout>
       </v-container>
       <router-view/>

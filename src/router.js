@@ -1,6 +1,9 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import ExerciseOne from './views/ExerciseOne.vue'
+import ExerciseTwo from './views/ExerciseTwo.vue'
+import ExerciseThree from './views/ExerciseThree.vue'
+import ExerciseFour from './views/ExerciseFour.vue'
 
 Vue.use(Router)
 
@@ -16,10 +19,17 @@ export default new Router({
     {
       path: '/exercise-two',
       name: 'exercise-two',
-      // route level code-splitting
-      // this generates a separate chunk (about.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import(/* webpackChunkName: "about" */ './views/ExerciseTwo.vue')
+      component: ExerciseTwo
+    },
+    {
+      path: '/exercise-three',
+      name: 'exercise-three',
+      component: ExerciseThree
+    },
+    {
+      path: '/exercise-four',
+      name: 'exercise-four',
+      component: ExerciseFour
     }
   ]
 })

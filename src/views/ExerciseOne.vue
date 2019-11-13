@@ -6,14 +6,14 @@
       </v-col>
 
       <v-col cols="12">
-        <p>Edit the HTML tags and javascript to change the appearance and functionality.</p>
+        <p>Edit the HTML and/or javascript to change the appearance and functionality.</p>
       </v-col>
     </v-row>
 
     <v-row dense>
       <v-col cols="12">
         <h2>Part 1</h2>
-        Play around with the text field a little.
+        Play around with the v-text-field a little.
       </v-col>
 
       <v-col cols="12">
@@ -100,7 +100,7 @@
 
     <v-row>
       <v-col cols="12">
-        <h2>Part 7</h2>
+        <h2>Part 8</h2>
         Add a v-btn to the first card that will call a function to reset msg to "Hello".
         <a href="https://vuetifyjs.com/en/components/cards#examples" target="_blank">For reference</a>
       </v-col>
