@@ -43,6 +43,7 @@
     </v-row>
 
     <v-divider class="my-4"/>
+
     <v-row>
       <v-col cols="12">
         <h2>Part 3</h2>
@@ -56,7 +57,9 @@
         max-height="300"/>
       </v-col>
     </v-row>
+
     <v-divider class="my-4"/>
+
     <v-row>
       <v-col cols="12">
         <h2>Part 4</h2>
@@ -65,7 +68,9 @@
         msg being "Vue.js rocks!"
       </v-col>
     </v-row>
+
     <v-divider class="my-4"/>
+
     <v-row>
       <v-col cols="12">
         <h2>Part 5</h2>
@@ -74,6 +79,7 @@
     </v-row>
 
     <v-divider class="my-4"/>
+
     <v-row>
       <v-col cols="12">
         <h2>Part 6</h2>
@@ -82,6 +88,7 @@
     </v-row>
 
     <v-divider class="my-4"/>
+
     <v-row>
       <v-col cols="12">
         <h2>Part 7</h2>
@@ -89,6 +96,15 @@
       </v-col>
     </v-row>
 
+    <v-divider class="my-4"/>
+
+    <v-row>
+      <v-col cols="12">
+        <h2>Part 7</h2>
+        Add a v-btn to the first card that will call a function to reset msg to "Hello".
+        <a href="https://vuetifyjs.com/en/components/cards#examples" target="_blank">For reference</a>
+      </v-col>
+    </v-row>
   </v-container>
 </template>
 
