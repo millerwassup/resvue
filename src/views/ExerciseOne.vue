@@ -105,6 +105,16 @@
         <a href="https://vuetifyjs.com/en/components/cards#examples" target="_blank">For reference</a>
       </v-col>
     </v-row>
+
+    <v-divider class="my-4"/>
+    
+    <v-row>
+      <v-col cols="12">
+        <h2>Part 9</h2>
+        Move the reset logic into a method in the javascript section.
+        <a href="https://vuejs.org/v2/guide/#Handling-User-Input" target="_blank">For reference</a>
+      </v-col>
+    </v-row>
   </v-container>
 </template>
 
