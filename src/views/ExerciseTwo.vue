@@ -64,12 +64,38 @@
     <v-row>
       <v-col cols="12">
         <h2>Part 5</h2>
-        Now, make a v-list below with different color choices. For now, just go with "red", "blue", "green", "yellow".
+        Now, make a v-select below with different color choices. For now, just go with "red", "blue", "green", "yellow".
         Bind the choice that is selected from that list to the "color" variable. The buttons should all change color.
         <a href="https://vuetifyjs.com/en/components/selects" target="_blank">For reference</a>
       </v-col>
       <v-col cols="12">
         <!-- Your code here -->
+      </v-col>
+    </v-row>
+
+    <v-divider class="my-4"/>
+
+    <v-row>
+      <v-col cols="12">
+        <h2>Part 6</h2>
+        We want to color selector to have capitalized colors, but send in lowercase colors to our component.<br>
+        Change "colors" to a list of objects with a "text" and "value" field.<br>
+        The text is what we will show users and the value is the value that will be associated
+        with the text they click on. For example, green object would like like:<br>
+        { text: 'Green', value: 'green' }<br>
+        Incorporate this into the v-select.
+        <a href="https://vuetifyjs.com/en/components/selects#customized-item-text-and-value" target="_blank">For reference</a>
+      </v-col>
+    </v-row>
+
+    <v-divider class="my-4"/>
+
+    <v-row>
+      <v-col cols="12">
+        <h2>Part 7</h2>
+        Does the select still work properly if you change "value" to "val"? Observe the value of
+        color below: <br>
+        {{ color }}
       </v-col>
     </v-row>
 
