@@ -107,7 +107,7 @@
     </v-row>
 
     <v-divider class="my-4"/>
-    
+
     <v-row>
       <v-col cols="12">
         <h2>Part 9</h2>
