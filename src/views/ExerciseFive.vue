@@ -34,6 +34,15 @@
         Make sure the toolbar works well at each screen size
       </v-col>
     </v-row>
+
+    <v-divider class="my-4"/>
+
+    <v-row>
+      <v-col cols="12">
+        <h2>Part 4</h2>
+        Change the logo that's on the tab at the top to the Armenian icon that can be found on this public folder
+      </v-col>
+    </v-row>
   </v-container>
 </template>
 
