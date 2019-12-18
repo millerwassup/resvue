@@ -2,7 +2,7 @@
   <v-container id="exercise-five">
     <v-row no-gutters>
       <v-col cols="12">
-        <h1>Exercise 5: Navbar</h1>
+        <h1>Exercise 5: App Bar </h1>
       </v-col>
 
       <v-col cols="12">
@@ -13,7 +13,7 @@
     <v-row>
       <v-col cols="12">
         <h2>Part 1</h2>
-        Change the website navigation so that at the top is a toolbar with links to the exercises.
+        Change the website navigation so that at the top is an app bar with links to the exercises.
       </v-col>
     </v-row>
 
@@ -22,7 +22,7 @@
     <v-row>
       <v-col cols="12">
         <h2>Part 2</h2>
-        Add color to the toolbar.
+        Add color to the app bar.
       </v-col>
     </v-row>
 
@@ -31,7 +31,7 @@
     <v-row>
       <v-col cols="12">
         <h2>Part 3</h2>
-        Make sure the toolbar works well at each screen size
+        Make sure the app bar works well at each screen size
       </v-col>
     </v-row>
 
